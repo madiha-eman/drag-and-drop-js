@@ -1,0 +1,31 @@
+body{
+    background-color: peru;
+}
+
+.imgBox{
+    background-image: url('madi.jpg');
+    position: relative;
+    left: 5px;
+    top: 5px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.whiteBox{
+    display: inline-block;
+height: 155px;
+width: 155px;
+margin: 10px;
+background-color: white;
+}
+.hold{
+    border: solid red 2px;
+}
+.hide{
+    display: none;
+}
+.dashed{
+    border-style: dashed;
+    background-color: rgb(209, 132, 30);
+}
